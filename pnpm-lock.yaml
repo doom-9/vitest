@@ -138,7 +138,7 @@ importers:
       vite: ^2.9.12
       vitest: workspace:*
     dependencies:
-      '@rollup/plugin-graphql': 1.1.0_nhmex7luzljoezdhc6xbg5ot4a
+      '@rollup/plugin-graphql': 1.1.0_43ql3v2t6o4ybgpyc3nievjubi
       graphql: 16.5.0
     devDependencies:
       '@vitest/ui': link:../../packages/ui
@@ -168,7 +168,7 @@ importers:
       lit: 2.2.5
     devDependencies:
       '@vitest/ui': link:../../packages/ui
-      happy-dom: 6.0.3
+      happy-dom: 6.0.4
       vite: 2.9.14
       vitest: link:../../packages/vitest
 
@@ -693,7 +693,7 @@ importers:
       '@types/chai': ^4.3.1
       '@types/chai-subset': ^1.3.3
       '@types/diff': ^5.0.2
-      '@types/jsdom': ^16.2.14
+      '@types/jsdom': ^20.0.0
       '@types/micromatch': ^4.0.2
       '@types/natural-compare': ^1.4.1
       '@types/node': '*'
@@ -713,7 +713,7 @@ importers:
       find-up: ^6.3.0
       flatted: ^3.2.6
       happy-dom: ^6.0.3
-      jsdom: ^19.0.0
+      jsdom: ^20.0.0
       local-pkg: ^0.4.2
       log-update: ^5.0.1
       magic-string: ^0.26.2
@@ -750,7 +750,7 @@ importers:
       '@edge-runtime/vm': 1.1.0-beta.11
       '@sinonjs/fake-timers': 9.1.2
       '@types/diff': 5.0.2
-      '@types/jsdom': 16.2.14
+      '@types/jsdom': 20.0.0
       '@types/micromatch': 4.0.2
       '@types/natural-compare': 1.4.1
       '@types/prompts': 2.4.0
@@ -767,7 +767,7 @@ importers:
       find-up: 6.3.0
       flatted: 3.2.6
       happy-dom: 6.0.3
-      jsdom: 19.0.0
+      jsdom: 20.0.0
       log-update: 5.0.1
       magic-string: 0.26.2
       micromatch: 4.0.5
@@ -4233,7 +4233,7 @@ packages:
       rollup: 2.77.0
     dev: true
 
-  /@rollup/plugin-graphql/1.1.0_nhmex7luzljoezdhc6xbg5ot4a:
+  /@rollup/plugin-graphql/1.1.0_43ql3v2t6o4ybgpyc3nievjubi:
     resolution: {integrity: sha512-X+H6oFlprDlnO3D0UiEytdW97AMphPXO0C7KunS7i/rBXIGQRQVDU5WKTXnBu2tfyYbjCTtfhXMSGI0i885PNg==}
     peerDependencies:
       graphql: '>=0.9.0'
@@ -4242,7 +4242,7 @@ packages:
       '@rollup/pluginutils': 4.2.1
       graphql: 16.5.0
       graphql-tag: 2.12.6_graphql@16.5.0
-      rollup: 2.76.0
+      rollup: 2.77.0
     dev: false
 
   /@rollup/plugin-inject/4.0.4_rollup@2.77.0:
@@ -6301,7 +6301,7 @@ packages:
     dev: true
 
   /@types/form-data/0.0.33:
-    resolution: {integrity: sha1-yayFsqX9GENbjIXZ7LUObWyJP/g=}
+    resolution: {integrity: sha512-8BSvG1kGm83cyJITQMZSulnl6QV8jqAGreJsc5tPu1Jq0vTSOiY/k24Wx82JRpWwZSqrala6sd5rWi6aNXvqcw==}
     dependencies:
       '@types/node': 18.0.4
     dev: true
@@ -6366,12 +6366,12 @@ packages:
     resolution: {integrity: sha512-qC4bCqYGy1y/NP7dDVr7KJarn+PbX1nSpwA7JXdu0HxT3QYjO8MJ+cntENtHFVy2dRAyBV23OZ6MxsW1AM1L8g==}
     dev: true
 
-  /@types/jsdom/16.2.14:
-    resolution: {integrity: sha512-6BAy1xXEmMuHeAJ4Fv4yXKwBDTGTOseExKE3OaHiNycdHdZw59KfYzrt0DkDluvwmik1HRt6QS7bImxUmpSy+w==}
+  /@types/jsdom/20.0.0:
+    resolution: {integrity: sha512-YfAchFs0yM1QPDrLm2VHe+WHGtqms3NXnXAMolrgrVP6fgBHHXy1ozAbo/dFtPNtZC/m66bPiCTWYmqp1F14gA==}
     dependencies:
-      '@types/node': 17.0.35
-      '@types/parse5': 6.0.3
+      '@types/node': 18.0.4
       '@types/tough-cookie': 4.0.2
+      parse5: 7.0.0
     dev: true
 
   /@types/json-schema/7.0.11:
@@ -6457,10 +6457,6 @@ packages:
 
   /@types/parse5/5.0.3:
     resolution: {integrity: sha512-kUNnecmtkunAoQ3CnjmMkzNU/gtxG8guhi+Fk2U/kOpIKjIMKnXGp4IJCgQJrXSgMsWYimYG4TGjz/UzbGEBTw==}
-    dev: true
-
-  /@types/parse5/6.0.3:
-    resolution: {integrity: sha512-SuT16Q1K51EAVPz1K29DJ/sXjhSQ0zjvsypYJ6tlwVsRV9jwW5Adq2ch8Dq8kDBCkYnELS7N7VNCSB5nC56t/g==}
     dev: true
 
   /@types/prettier/2.6.1:
@@ -12762,6 +12758,20 @@ packages:
       - encoding
     dev: true
 
+  /happy-dom/6.0.4:
+    resolution: {integrity: sha512-b+ID23Ms0BY08UNLymsOMG7EI2jSlwEt4cbJs938GZfeNAg+fqgkSO3TokQMgSOFoHznpjWmpVjBUL5boJ9PWw==}
+    dependencies:
+      css.escape: 1.5.1
+      he: 1.2.0
+      node-fetch: 2.6.7
+      sync-request: 6.1.0
+      webidl-conversions: 7.0.0
+      whatwg-encoding: 2.0.0
+      whatwg-mimetype: 3.0.0
+    transitivePeerDependencies:
+      - encoding
+    dev: true
+
   /has-ansi/2.0.0:
     resolution: {integrity: sha1-NPUEnOHs3ysGSa8+8k5F7TVBbZE=}
     engines: {node: '>=0.10.0'}
@@ -14648,7 +14658,7 @@ packages:
       whatwg-encoding: 2.0.0
       whatwg-mimetype: 3.0.0
       whatwg-url: 11.0.0
-      ws: 8.8.0
+      ws: 8.8.1
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
       - bufferutil
